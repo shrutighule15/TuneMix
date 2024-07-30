@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TuneMix</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <!-- logo container -->
+
+    <div class="first-container">
+      <img class="logo1" src="/TuneMix/logo1.png" alt="logo" />
+      <img class="logo2" src="/TuneMix/logo2.png" alt="logo" />
+      <input
+        type="text"
+        id="input-box"
+        placeholder="Search Artist, Song, Album"
+      />
+
+      <button class="search">
+        <img
+          src="/TuneMix/search.1022x1024.png"
+          alt="search-button"
+          class="search-icon"
+        />Search
+      </button>
+      <button class="plus">Premium</button>
+      <button class="signup">Log in/Sign up</button>
+    </div>
+    <hr class="black-line" />
+
+    <!-- Navigation container -->
+
+    <div class="Nav-container">
+      <a class="all">All</a>
+      <a class="newrelease">New Release</a>
+      <a class="oldsong">Old Songs</a>
+      <a class="topartist">Top Artist</a>
+      <a class="mymusic">My Music</a>
+    </div>
+
+    <!-- play music footer -->
+
+    <div class="music-control">
+      <!-- song progress bar -->
+      <!-- song image footer -->
+      <div class="music-playing-footer">
+        <img src="" alt="" />
+      </div>
+      <!-- song name footer -->
+      <div class="music-name-footer">
+        <p class="footer-song-name"></p>
+      </div>
+      <!-- duration -->
+      <div class="duration">
+        <span class="start-duration">00:00</span>
+        <span class="break-duration">/</span>
+        <span class="end-duration">00:00</span>
+      </div>
+
+      <div class="time-to-shuffle">
+        <!-- remaining icon -->
+        <button class="repeat">
+          <img src="/TuneMix/repeat.968x1024.png" alt="repeat" />
+        </button>
+        <button class="backward">
+          <img src="/TuneMix/backward.png" alt="backward" />
+        </button>
+        <button class="play">
+          <img src="/TuneMix/play circle.png" alt="play" />
+        </button>
+        <button class="pause" style="display: none;">
+          <img src="/TuneMix/pause circle.png" alt="pause" />
+        </button>
+        <button class="forward">
+          <img src="/TuneMix/forward.png" alt="forward" />
+        </button>
+        <button class="shuffle">
+          <img src="/TuneMix/shuffle.1024x834.png" alt="shuffle" />
+        </button>
+      </div>
+      <!-- remaining icon -->
+      <button class="heart">
+        <img src="/TuneMix/heart.png" alt="heart" />
+      </button>
+      <div class="volume-container">
+      <button class="volume">
+        <img src="/TuneMix/volume-up.1024x839.png" alt="volume" />
+      </button>
+      <input type="range" class="volume-slider" min="0" max="1" step="0.01" value="1" />
+  
+    </div>
+    </div>
+
+    <!-- New realease container -->
+
+    <div class="new-release-container">
+      <h2>New Release</h2>
+      <div>
+        <img
+          class="song-inline"
+          src="/TuneMix/satranga.jpg"
+          alt="Satranga"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Satranga</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/TuneMix/Teri-Baaton-Mein-Aisa.jpg"
+          alt="Teri Baaton Mein Aisa"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Laal Peeli Akhiyaan</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/TuneMix/Shershaah.jpg"
+          alt="Shershaah"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Raaatan Lambiyan</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/TuneMix/rocky aur rani.png"
+          alt="rocky aur rani ki prem kahani"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">What Jhumka</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/TuneMix/Bawaal.jpg"
+          alt="Bawaal"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Dilon ki Dooriyan</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/TuneMix/Shehzada.jpg"
+          alt="Shehzada"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Chedkhaniyan</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/TuneMix/War.jpg"
+          alt="War"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Ghungroo</p>
+      </div>
+    </div>
+    <hr class="white-line" />
+
+    <!-- old movie container -->
+
+    <div class="old-movie-container">
+      <h2>Old Movie Songs</h2>
+      <div>
+        <img
+          class="song-inline"
+          src="/TuneMix/Om-Shanti-Om.jpg"
+          alt="Om Shanti Om"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Aankhon Mein Teri</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/TuneMix/Kal-Ho-Naa-Ho.jpg"
+          alt="Kal Ho Naa Ho"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Kal Ho Naa Ho</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/TuneMix/Hum-Dil-De-Chuke-Sanam.jpg"
+          alt="Hum Dil De Chuke Sanam"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Albela Sajan</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/TuneMix/Dil-To-Pagal-Hai.jpg"
+          alt="Dil To Pagal Hai"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Bholi si Surat</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/TuneMix/Dil-Se.jpg"
+          alt="Dil-Se"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Jiya Jale</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/TuneMix/Kabhi-Khushi-Kabhie-Gham.jpg"
+          alt="Kabhi Khushi Kabhie Gham"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Bole Chudiyan</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/TuneMix/Fanaa.jpg"
+          alt="Fanaa"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Mere Hath Mein</p>
+      </div>
+    </div>
+    <hr class="white-line" />
+
+    <!-- Top artist container -->
+
+    <div class="top-artist-container">
+      <h2>Top Artist</h2>
+      <div>
+        <img
+          class="circle"
+          src="/TuneMix/Arijit_Singh.jpg"
+          alt="Arijit Singh"
+          width="155px"
+          height="155px"
+        />
+        <p class="artist-name">Arijit Singh</p>
+      </div>
+
+      <div>
+        <img
+          class="circle"
+          src="/TuneMix/Shreya_Ghoshal.jpg"
+          alt="Shreya Ghoshal"
+          width="155px"
+          height="155px"
+        />
+        <p class="artist-long-name">Shreya Ghoshal</p>
+      </div>
+
+      <div>
+        <img
+          class="circle"
+          src="/TuneMix/Yo_Yo_Honey_Singh.jpg"
+          alt="Yo Yo"
+          width="155px"
+          height="155px"
+        />
+        <p class="artist-long-name">Yo Yo Honey Singh</p>
+      </div>
+
+      <div>
+        <img
+          class="circle"
+          src="/TuneMix/Lata_Mangeshkar.jpg"
+          alt="Lata Mangeshkar"
+          width="155px"
+          height="155px"
+        />
+        <p class="artist-long-name">Lata Mangeshkar</p>
+      </div>
+
+      <div>
+        <img
+          class="circle"
+          src="/TuneMix/Neha_Kakkar.jpg"
+          alt="Neha Kakkar"
+          width="155px"
+          height="155px"
+        />
+        <p class="artist-name">Neha Kakkar</p>
+      </div>
+
+      <div>
+        <img
+          class="circle"
+          src="/TuneMix/Diljit_Dosanjh.jpg"
+          alt="Diljit Dosanjh"
+          width="155px"
+          height="155px"
+        />
+        <p class="artist-name">Diljit Dosanjh</p>
+      </div>
+
+      <div>
+        <img
+          class="circle"
+          src="/TuneMix/Sonu_Nigam.jpg"
+          alt="Sonu Nigam"
+          width="155px"
+          height="155px"
+        />
+        <p class="artist-name">Sonu Nigam</p>
+      </div>
+    </div>
+    <hr class="white-line" />
+
+    <script src="script.js"></script>
+  </body>
+</html>

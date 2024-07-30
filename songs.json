@@ -1,0 +1,87 @@
+[
+    {
+      "id": "1",
+      "songName": "Satranga",
+      "poster": "TuneMix/satranga.jpg",
+      "Audio": "TuneMix/Satranga.mp3"
+    },
+    {
+      "id": "2",
+      "songName": "Laal Peeli Akhiyaan",
+      "poster": "TuneMix/Teri-Baaton-Mein-Aisa.jpg",
+      "Audio": "TuneMix/Laal Peeli Akhiyaan.mp3"
+    },
+    {
+      "id": "3",
+      "songName": "Raaatan Lambiyan",
+      "poster": "TuneMix/Shershaah.jpg",
+      "Audio": "TuneMix/Raataan Lambiyan.mp3"
+    },
+    {
+      "id": "4",
+      "songName": "What Jhumka",
+      "poster": "TuneMix/rocky aur rani.png",
+      "Audio": "TuneMix/What Jhumka.mp3"
+    },
+    {
+      "id": "5",
+      "songName": "Dilon ki Dooriyan",
+      "poster": "TuneMix/Bawaal.jpg",
+      "Audio": "TuneMix/Dilon Ki Doriyan.mp3"
+    },
+    {
+      "id": "6",
+      "songName": "Chedkhaniyan",
+      "poster": "TuneMix/Shehzada.jpg",
+      "Audio": "TuneMix/Chedkhaniyan.mp3"
+    },
+    {
+      "id": "7",
+      "songName": "Ghungroo",
+      "poster": "TuneMix/War.jpg",
+      "Audio": "TuneMix/Ghungroo.mp3"
+    },
+    {
+      "id": "8",
+      "songName": "Aankhon Mein Teri",
+      "poster": "TuneMix/Om-Shanti-Om.jpg",
+      "Audio": "TuneMix/Aankhon mein.mp3"
+    },
+    {
+      "id": "9",
+      "songName": "Kal Ho Naa Ho",
+      "poster": "TuneMix/Kal-Ho-Naa-Ho.jpg",
+      "Audio": "TuneMix/Kal Ho Naa Ho.mp3"
+    },
+    {
+      "id": "10",
+      "songName": "Albela Sajan",
+      "poster": "TuneMix/Hum-Dil-De-Chuke-Sanam.jpg",
+      "Audio": "TuneMix/Albela Sajan.mp3"
+    },
+    {
+      "id": "11",
+      "songName": "Bholi si Surat",
+      "poster": "TuneMix/Dil-To-Pagal-Hai.jpg",
+      "Audio": "TuneMix/Bholi Si Surat.mp3"
+    },
+    {
+      "id": "12",
+      "songName": "Jiya Jale",
+      "poster": "TuneMix/Dil-Se.jpg",
+      "Audio": "TuneMix/Jiya Jale.mp3"
+    },
+    {
+      "id": "13",
+      "songName": "Bole Chudiyan",
+      "poster": "TuneMix/Kabhi-Khushi-Kabhie-Gham.jpg",
+      "Audio": "TuneMix/Bole Chudiyan.mp3"
+    },
+    {
+      "id": "14",
+      "songName": "Mere Hath Mein",
+      "poster": "TuneMix/Fanaa.jpg",
+      "Audio": "TuneMix/Mere Haath Mein.mp3"
+    }
+  ]
+  
