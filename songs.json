@@ -3,85 +3,169 @@
       "id": "1",
       "songName": "Satranga",
       "poster": "TuneMix/satranga.jpg",
-      "Audio": "TuneMix/Satranga.mp3"
+      "audio": "TuneMix/Satranga.mp3"
     },
     {
       "id": "2",
       "songName": "Laal Peeli Akhiyaan",
-      "poster": "TuneMix/Teri-Baaton-Mein-Aisa.jpg",
-      "Audio": "TuneMix/Laal Peeli Akhiyaan.mp3"
+      "poster": "TuneMix/Teri Baaton Mein Aisa.jpg",
+      "audio": "TuneMix/Laal Peeli Akhiyaan.mp3"
     },
     {
       "id": "3",
       "songName": "Raaatan Lambiyan",
       "poster": "TuneMix/Shershaah.jpg",
-      "Audio": "TuneMix/Raataan Lambiyan.mp3"
+      "audio": "TuneMix/Raataan Lambiyan.mp3"
     },
     {
       "id": "4",
       "songName": "What Jhumka",
       "poster": "TuneMix/rocky aur rani.png",
-      "Audio": "TuneMix/What Jhumka.mp3"
+      "audio": "TuneMix/What Jhumka.mp3"
     },
     {
       "id": "5",
       "songName": "Dilon ki Dooriyan",
       "poster": "TuneMix/Bawaal.jpg",
-      "Audio": "TuneMix/Dilon Ki Doriyan.mp3"
+      "audio": "TuneMix/Dilon Ki Doriyan.mp3"
     },
     {
       "id": "6",
       "songName": "Chedkhaniyan",
       "poster": "TuneMix/Shehzada.jpg",
-      "Audio": "TuneMix/Chedkhaniyan.mp3"
+      "audio": "TuneMix/Chedkhaniyan.mp3"
     },
     {
       "id": "7",
       "songName": "Ghungroo",
       "poster": "TuneMix/War.jpg",
-      "Audio": "TuneMix/Ghungroo.mp3"
+      "audio": "TuneMix/Ghungroo.mp3"
     },
     {
       "id": "8",
-      "songName": "Aankhon Mein Teri",
-      "poster": "TuneMix/Om-Shanti-Om.jpg",
-      "Audio": "TuneMix/Aankhon mein.mp3"
+      "songName": "Jhoome Jo Pathaan",
+      "poster": "TuneMix/Jhoome Jo Pathaan.jpg",
+      "audio": "TuneMix/Jhoome Jo Pathaan.mp3"
     },
     {
       "id": "9",
-      "songName": "Kal Ho Naa Ho",
-      "poster": "TuneMix/Kal-Ho-Naa-Ho.jpg",
-      "Audio": "TuneMix/Kal Ho Naa Ho.mp3"
+      "songName": "Dekha Tenu",
+      "poster": "TuneMix/Dekha Tenu.jpg",
+      "audio": "TuneMix/Dekha Tenu.mp3"
     },
     {
       "id": "10",
-      "songName": "Albela Sajan",
-      "poster": "TuneMix/Hum-Dil-De-Chuke-Sanam.jpg",
-      "Audio": "TuneMix/Albela Sajan.mp3"
+      "songName": "Koi Tumsa Nahi",
+      "poster": "TuneMix/Koi Tumsa Nahi.jpg",
+      "audio": "TuneMix/Koi Tumsa Nahi.mp3"
     },
     {
       "id": "11",
-      "songName": "Bholi si Surat",
-      "poster": "TuneMix/Dil-To-Pagal-Hai.jpg",
-      "Audio": "TuneMix/Bholi Si Surat.mp3"
+      "songName": "Chaleya",
+      "poster": "TuneMix/Chaleya.jpg",
+      "audio": "TuneMix/Chaleya.mp3"
     },
     {
       "id": "12",
-      "songName": "Jiya Jale",
-      "poster": "TuneMix/Dil-Se.jpg",
-      "Audio": "TuneMix/Jiya Jale.mp3"
+      "songName": "Tum Hi Ho",
+      "poster": "TuneMix/Tum Hi Ho.jpg",
+      "audio": "TuneMix/Tum Hi Ho.mp3"
     },
     {
       "id": "13",
-      "songName": "Bole Chudiyan",
-      "poster": "TuneMix/Kabhi-Khushi-Kabhie-Gham.jpg",
-      "Audio": "TuneMix/Bole Chudiyan.mp3"
+      "songName": "Khairiyat",
+      "poster": "TuneMix/Khairiyat.jpg",
+      "audio": "TuneMix/Khairiyat.mp3"
     },
     {
       "id": "14",
+      "songName": "Sab Tera",
+      "poster": "TuneMix/Sab Tera.jpg",
+      "audio": "TuneMix/Sab Tera.mp3"
+    },
+  
+    {
+      "id": "15",
+      "songName": "Aankhon Mein Teri",
+      "poster": "TuneMix/Om Shanti Om.jpg",
+      "audio": "TuneMix/Aankhon mein.mp3"
+    },
+    {
+      "id": "16",
+      "songName": "Kal Ho Naa Ho",
+      "poster": "TuneMix/Kal Ho Naa Ho.jpg",
+      "audio": "TuneMix/Kal Ho Naa Ho.mp3"
+    },
+    {
+      "id": "17",
+      "songName": "Albela Sajan",
+      "poster": "TuneMix/Hum Dil De Chuke Sanam.jpg",
+      "audio": "TuneMix/Albela Sajan.mp3"
+    },
+    {
+      "id": "18",
+      "songName": "Bholi si Surat",
+      "poster": "TuneMix/Dil To Pagal Hai.jpg",
+      "audio": "TuneMix/Bholi si Surat.mp3"
+    },
+    {
+      "id": "19",
+      "songName": "Jiya Jale",
+      "poster": "TuneMix/Dil Se.jpg",
+      "audio": "TuneMix/Jiya Jale.mp3"
+    },
+    {
+      "id": "20",
+      "songName": "Bole Chudiyan",
+      "poster": "TuneMix/Kabhi Khushi Kabhie Gham.jpg",
+      "audio": "TuneMix/Bole Chudiyan.mp3"
+    },
+    {
+      "id": "21",
       "songName": "Mere Hath Mein",
       "poster": "TuneMix/Fanaa.jpg",
-      "Audio": "TuneMix/Mere Haath Mein.mp3"
+      "audio": "TuneMix/Mere Haath Mein.mp3"
+    },
+    {
+      "id": "22",
+      "songName": "Kabhi Kabhie",
+      "poster": "TuneMix/Kabhi Kabhie.jpg",
+      "audio": "TuneMix/Kabhi Kabhie.mp3"
+    },
+    {
+      "id": "23",
+      "songName": "Tujhe Dekha To",
+      "poster": "TuneMix/Tujhe Dekha To.jpg",
+      "audio": "TuneMix/Tujhe Dekha To.mp3"
+    },
+    {
+      "id": "24",
+      "songName": "Chalte Chalte",
+      "poster": "TuneMix/Chalte Chalte.jpg",
+      "audio": "TuneMix/Chalte Chalte.mp3"
+    },
+    {
+      "id": "25",
+      "songName": "Baazigar O Baazigar",
+      "poster": "TuneMix/Baazigar O Baazigar.jpg",
+      "audio": "TuneMix/Baazigar O Baazigar.mp3"
+    },
+    {
+      "id": "26",
+      "songName": "Bol Na Halke Halke",
+      "poster": "TuneMix/Bol Na Halke Halke.jpg",
+      "audio": "TuneMix/Bol Na Halke Halke.mp3"
+    },
+    {
+      "id": "27",
+      "songName": "Dil Ne Yeh Kaha",
+      "poster": "TuneMix/Dil Ne Yeh Kaha.jpg",
+      "audio": "TuneMix/Dil Ne Yeh Kaha.mp3"
+    },
+    {
+      "id": "28",
+      "songName": "Do-Pal",
+      "poster": "TuneMix/Do Pal.jpg",
+      "audio": "TuneMix/Do Pal.mp3"
     }
-  ]
-  
+]

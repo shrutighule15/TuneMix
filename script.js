@@ -8,14 +8,15 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector(".pause").style.display = "none";
 
   // Fetch the songs data from the JSON file
-  fetch("songs.json") // Replace with the correct path to your songs.json
+  fetch("songs.json")
     .then((response) => response.json())
     .then((data) => {
+      console.log("Fetched songs data:", data);
       songs = data;
-      // Optionally set the footer with the first song's details
       if (songs.length > 0) {
         updateFooter(songs[0]);
-        // Automatically play the first song
+      } else {
+        console.error("No songs available.");
       }
     })
     .catch((error) => console.error("Error fetching songs data:", error));
@@ -24,29 +25,51 @@ document.addEventListener("DOMContentLoaded", () => {
   function playSong(songIndex) {
     currentSongIndex = songIndex;
     const selectedSong = songs[songIndex];
-    music.src = selectedSong.Audio;
+
+    if (!selectedSong) {
+      console.error("Selected song is undefined:", songIndex);
+      return;
+    }
+
+    console.log("Playing song:", selectedSong);
+
+    music.src = selectedSong.audio; // Set audio source
+    music.preload = "auto"; // Preload audio for faster playback
     music
       .play()
       .then(() => {
-        updateFooter(selectedSong);
-        // Set play button to be hidden and pause button to be visible
+        updateFooter(selectedSong); // Update footer with current song details
         document.querySelector(".play").style.display = "none";
         document.querySelector(".pause").style.display = "inline-block";
       })
       .catch((error) => {
         console.error("Error playing the song:", error);
       });
+
+    // Update the duration when metadata is loaded
+    music.addEventListener("loadedmetadata", () => {
+      document.querySelector(".end-duration").textContent = formatTime(
+        music.duration
+      );
+    });
   }
 
   // Function to update footer with song information
   function updateFooter(song) {
-    document.querySelector(".footer-song-name").textContent = song.songName;
-    document.querySelector(".music-playing-footer img").src = song.poster;
-    document.querySelector(".start-duration").textContent = "00:00";
-    music.addEventListener("loadedmetadata", () => {
-      const duration = formatTime(music.duration);
-      document.querySelector(".end-duration").textContent = duration;
-    });
+    const songNameElem = document.querySelector(".footer-song-name");
+    const posterElem = document.querySelector(".footer-poster");
+    const startDurationElem = document.querySelector(".start-duration");
+    const endDurationElem = document.querySelector(".end-duration");
+
+    console.log("Updating footer with song:", song);
+
+    if (songNameElem && posterElem && startDurationElem && endDurationElem) {
+      songNameElem.textContent = song.songName || "Unknown Song Name";
+      posterElem.src = song.poster || "path/to/default-image.jpg"; // Use the song's poster or a default image
+      startDurationElem.textContent = "00:00"; // Reset start duration
+    } else {
+      console.error("Footer elements not found.");
+    }
   }
 
   // Function to format time in mm:ss
@@ -62,10 +85,11 @@ document.addEventListener("DOMContentLoaded", () => {
       element.addEventListener("click", () => playSong(i));
     }
   );
+
   // Control buttons functionality
   document.querySelector(".play").addEventListener("click", () => {
     if (songs.length > 0) {
-      playSong(currentSongIndex); // Play the current song or default to the first song
+      playSong(currentSongIndex); // Play the current song
     }
   });
 
@@ -115,8 +139,6 @@ document.addEventListener("DOMContentLoaded", () => {
     volumeSlider.addEventListener("input", (event) => {
       const volume = parseFloat(event.target.value);
       music.volume = volume; // Update the volume based on slider value
-
-      // Optionally, you can change volume appearance or add other feedback here
     });
   } else {
     console.error("Volume slider not found.");
