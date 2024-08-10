@@ -1,0 +1,530 @@
+body {
+  margin: 0;
+  background-color: #111111;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  flex-direction: column;
+  padding: 0;
+}
+
+.first-container {
+  height: auto;
+  background-color: #333333;
+  align-items: center;
+  padding: 11px 100px 11px 53px;
+  align-self: start;
+  display: flex;
+  justify-content: flex-start;
+  width: auto;
+  box-sizing: border-box;
+}
+.logo1 {
+  width: 58px;
+  height: 45px;
+  float: left;
+}
+
+.logo2 {
+  width: 90px;
+  height: 24px;
+  float: left;
+  padding-left: 5px;
+  filter: brightness(130%);
+}
+
+#input-box {
+  width: 520px;
+  height: 35px;
+  border-radius: 90px;
+  border-color: rgb(7, 2, 2);
+  border-width: 1px;
+  text-indent: 15px;
+  font-size: 15px;
+  margin-left: 130px;
+  margin-right: 10px;
+}
+.search {
+  display: flex; /* Enable flexbox */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  color: white;
+  border-color: #e72c30;
+  border-radius: 18px;
+  border-width: 0.9px;
+  cursor: pointer;
+  font-size: 17px;
+  background-color: red;
+  width: 110px;
+  height: 40px;
+}
+
+.search-icon {
+  width: 17px;
+  height: 17px; /* Set a fixed height to match the width */
+  margin-right: 8px; /* Space between icon and text */
+}
+
+.plus {
+  margin-left: 210px;
+  margin-right: 50px;
+  background: linear-gradient(to bottom right, #ef4765, #ff9a5a);
+  color: white;
+  border-width: 0.9px;
+  border-color: black;
+  cursor: pointer;
+  width: 100px;
+  height: 25px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.signup {
+  background: none;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  color: white;
+  white-space: nowrap;
+}
+
+.Nav-container {
+  background-color: #333333;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 15px 10px;
+  margin: 0;
+  font-family: "Slabo 27px", serif;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box; /* Include padding and border in width */
+  flex-wrap: nowrap; /* Prevent wrapping of items */
+}
+.Nav-container > * {
+  flex: 0 0 auto; /* Allow child elements to take up available space */
+  text-align: center; /* Center text within each nav item */
+}
+
+.all,
+.newrelease,
+.oldsong,
+.topartist,
+.mymusic {
+  margin-right: 3; /* Responsive margin-right */
+  margin-left: 3vw; /* Responsive margin-left for .all */
+}
+
+/* Tablet and small devices */
+@media (max-width: 768px) {
+  .Nav-container {
+    font-size: 18px;
+    padding: 15px 5px;
+    overflow-x: auto;
+  }
+
+  .Nav-container > * {
+    margin: 0 12px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .Nav-container {
+    font-size: 16px;
+    padding: 10px 5px;
+  }
+
+  .Nav-container > * {
+    margin: 0 10px;
+  }
+}
+
+h2 {
+  padding: 16px 15px 18px 0px;
+  font-family: "PT Serif", serif;
+  margin: 0px;
+  width: 1369px;
+  color: whitesmoke;
+  height: 22px;
+}
+
+.new-release-container {
+  display: flex;
+  width: auto;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 49px;
+  padding-inline-start: 50px;
+  padding-right: 5;
+}
+.old-movie-container {
+  display: flex;
+  width: auto;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 49px;
+}
+.top-artist-container {
+  display: flex;
+  width: auto;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 49px;
+
+  border-radius: 50%;
+  filter: brightness(130%);
+  margin-bottom: 30px;
+}
+.my-music {
+  display: flex;
+  width: auto;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  padding-inline-start: 50px;
+}
+.Mood-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 34px;
+  padding-inline-start: 50px;
+}
+
+.song-inline {
+  border-radius: 17px;
+  display: block;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-top: 10px;
+  filter: brightness(130%);
+}
+
+.circle {
+  border-radius: 50%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  display: block;
+}
+.song-name {
+  display: flex;
+  font-size: 18px;
+  width: auto;
+  height: auto;
+  margin: 17px 0px 0px 0px;
+  padding-bottom: 10px;
+  font-family: Lato, sans-serif;
+  font-size: 110%;
+  line-height: 1.46;
+  color: wheat;
+  font-weight: bold;
+}
+.artist-name {
+  display: flex;
+  font-size: 18px;
+  width: auto;
+  height: auto;
+  margin: 17px 0px 0px 0px;
+  padding: 10px 0px 0px 30px;
+  font-family: Lato, sans-serif;
+  font-size: 110%;
+  line-height: 1.46;
+  color: white;
+}
+.artist-long-name {
+  display: flex;
+  font-size: 18px;
+  width: auto;
+  height: auto;
+  margin: 17px 0px 0px 0px;
+  padding: 10px 0px 0px 10px;
+  font-family: Lato, sans-serif;
+  font-size: 110%;
+  line-height: 1.46;
+  color: white;
+}
+.white-line {
+  color: white;
+  border-top: 2px solid;
+  margin: 22px auto; /* Center the line horizontally */
+  width: 100%; /* Ensure it takes full width of the container */
+
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.black-line {
+  border-top: 2px solid black;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.music-control {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  height: 65px;
+  background-color: #333333;
+  width: 100%;
+  z-index: 9999;
+  box-sizing: border-box;
+  bottom: 0;
+  border-color: #111111;
+  /* overflow-x: auto; */
+}
+
+button.play {
+  padding-inline: 0px;
+  padding-block: 0px;
+  background-color: transparent;
+  border-width: 0px;
+  border-style: none;
+  cursor: pointer;
+  filter: invert(100%);
+}
+button.pause {
+  padding-inline: 0px;
+  padding-block: 0px;
+  background-color: transparent;
+  border-width: 0px;
+  border-style: none;
+  cursor: pointer;
+  filter: invert(100%);
+}
+button.forward {
+  padding-inline: 0px;
+  padding-block: 0px;
+  background-color: transparent;
+  border-width: 0px;
+  border-style: none;
+  cursor: pointer;
+  filter: invert(100%);
+}
+button.backward {
+  padding-inline: 0px;
+  padding-block: 0px;
+  background-color: transparent;
+  border-width: 0px;
+  border-style: none;
+  cursor: pointer;
+  filter: invert(100%);
+}
+button.shuffle {
+  padding-inline: 0px;
+  padding-block: 0px;
+  background-color: transparent;
+  border-width: 0px;
+  border-style: none;
+  cursor: pointer;
+  filter: invert(100%);
+}
+button.heart {
+  padding-inline: 0px;
+  padding-block: 0px;
+  background-color: transparent;
+  border-width: 0px;
+  border-style: none;
+  cursor: pointer;
+  filter: invert(100%);
+}
+button.volume {
+  padding-inline: 0px;
+  padding-block: 0px;
+  background-color: transparent;
+  border-width: 0px;
+  border-style: none;
+  cursor: pointer;
+  filter: invert(100%);
+}
+button.repeat {
+  padding-inline: 0px;
+  padding-block: 0px;
+  background-color: transparent;
+  border-width: 0px;
+  border-style: none;
+  cursor: pointer;
+  filter: invert(100%);
+}
+.play img {
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+}
+.pause img {
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+}
+
+.backward img {
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+}
+.forward img {
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+}
+.shuffle img {
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+  padding-right: 250px;
+}
+.repeat img {
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+}
+.volume img {
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+}
+.heart img {
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+  padding-right: 70px;
+}
+.volume-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between the button and slider */
+}
+
+/* Volume Slider */
+.volume-slider {
+  -webkit-appearance: none; /* Remove default WebKit styling */
+  appearance: none; /* Standard property */
+  width: 100px; /* Width of the slider */
+  height: 5px; /* Height of the slider track */
+  background: #ddd; /* Background color of the slider track */
+  outline: none; /* Removes the default outline on focus */
+  opacity: 0.7; /* Initial opacity */
+  transition: opacity 0.15s ease-in-out; /* Smooth transition on hover */
+  position: relative; /* Relative positioning for alignment */
+}
+
+/* Track styling for WebKit browsers */
+.volume-slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  background: #ddd;
+  border-radius: 5px; /* Rounded track */
+}
+
+/* Thumb styling for WebKit browsers */
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Remove default WebKit styling */
+  appearance: none; /* Standard property */
+  width: 15px;
+  height: 15px;
+  background: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%; /* Rounded thumb */
+  margin-top: -5px; /* Center the thumb */
+}
+
+/* Track styling for Firefox browsers */
+.volume-slider::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  background: #ddd;
+  border-radius: 5px; /* Rounded track */
+}
+
+/* Thumb styling for Firefox browsers */
+.volume-slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%; /* Rounded thumb */
+}
+
+/* Track styling for IE browsers */
+.volume-slider::-ms-track {
+  width: 100%;
+  height: 5px;
+  background: transparent; /* IE track is transparent by default */
+  border-color: transparent;
+  color: transparent;
+  border-radius: 5px; /* Rounded track */
+}
+
+/* Thumb styling for IE browsers */
+.volume-slider::-ms-thumb {
+  width: 15px;
+  height: 15px;
+  background: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%; /* Rounded thumb */
+}
+
+/* Remove default focus styling for IE */
+.volume-slider:focus::-ms-fill-lower {
+  background: #ddd;
+}
+
+.volume-slider:focus::-ms-fill-upper {
+  background: #ddd;
+}
+
+.duration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px;
+  border-radius: 10px;
+  font-size: 16 px;
+  border-color: white;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 20px;
+}
+.time-to-shuffle {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  padding-right: 50px;
+  padding-left: 75px;
+}
+.music-playing-footer img {
+  height: 50px;
+  width: 50px;
+  filter: brightness(120%);
+  padding-right: 30px;
+  padding-left: 50px;
+  display: inline-block;
+}
+.music-name-footer {
+  color: white;
+}
+.footer-song-name {
+  margin: 0;
+  padding-top: 0px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  padding-right: 200px;
+  width: 170px;
+  display: inline-block;
+}
+.my-music {
+  margin-bottom: 100px;
+}

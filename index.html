@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TuneMix</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- logo container -->
+
+    <div class="first-container">
+      <img class="logo1" src="/Media/logo1.png" alt="logo" />
+      <img class="logo2" src="/Media/logo2.png" alt="logo" />
+      <input
+        type="text"
+        id="input-box"
+        placeholder="Search Artist, Song, Album"
+      />
+
+      <button class="search">
+        <img
+          src="/Media/search.1022x1024.png"
+          alt="search-button"
+          class="search-icon"
+        />Search
+      </button>
+      <button class="plus">Premium</button>
+      <button class="signup">Log in/Sign up</button>
+    </div>
+    <hr class="black-line" />
+
+    <!-- Navigation container -->
+
+    <div class="Nav-container">
+      <a class="all">All</a>
+      <a class="newrelease">New Release</a>
+      <a class="oldsong">Old Songs</a>
+      <a class="topartist">Top Artist</a>
+      <a class="mymusic">My Music</a>
+    </div>
+
+    <!-- play music footer -->
+
+    <div class="music-control">
+      <!-- song progress bar -->
+      <!-- song image footer -->
+      <div class="music-playing-footer">
+        <img src="" alt="" class="footer-poster"/>
+      </div>
+      <!-- song name footer -->
+      <div class="music-name-footer">
+        <p class="footer-song-name"></p>
+      </div>
+      <!-- duration -->
+      <div class="duration">
+        <span class="start-duration">00:00</span>
+        <span class="break-duration">/</span>
+        <span class="end-duration">00:00</span>
+      </div>
+
+      <div class="time-to-shuffle">
+        <!-- remaining icon -->
+        <button class="repeat">
+          <img src="/Media/repeat.968x1024.png" alt="repeat" />
+        </button>
+        <button class="backward">
+          <img src="/Media/backward.png" alt="backward" />
+        </button>
+        <button class="play">
+          <img src="/Media/play circle.png" alt="play" />
+        </button>
+        <button class="pause" style="display: none">
+          <img src="/Media/pause circle.png" alt="pause" />
+        </button>
+        <button class="forward">
+          <img src="/Media/forward.png" alt="forward" />
+        </button>
+        <button class="shuffle">
+          <img src="/Media/shuffle.1024x834.png" alt="shuffle" />
+        </button>
+      </div>
+      <!-- remaining icon -->
+      <button class="heart">
+        <img src="/Media/heart.png" alt="heart" />
+      </button>
+      <div class="volume-container">
+        <button class="volume">
+          <img src="/Media/volume-up.1024x839.png" alt="volume" />
+        </button>
+        <input
+          type="range"
+          class="volume-slider"
+          min="0"
+          max="1"
+          step="0.01"
+          value="1"
+        />
+      </div>
+    </div>
+
+    <!-- New realease container -->
+
+    <div class="new-release-container">
+      <h2>New Release</h2>
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/satranga.jpg"
+          alt="Satranga"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Satranga</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Teri Baaton Mein Aisa.jpg"
+          alt="Teri Baaton Mein Aisa"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Laal Peeli Akhiyaan</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Shershaah.jpg"
+          alt="Shershaah"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Raaatan Lambiyan</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/rocky aur rani.png"
+          alt="rocky aur rani ki prem kahani"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">What Jhumka</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Bawaal.jpg"
+          alt="Bawaal"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Dilon ki Dooriyan</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Shehzada.jpg"
+          alt="Shehzada"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Chedkhaniyan</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/War.jpg"
+          alt="War"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Ghungroo</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Jhoome Jo Pathaan.jpg"
+          alt="Jhoome Jo Pathaan"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Jhoome Jo Pathaan</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Dekha Tenu.jpg"
+          alt="Dekha Tenu"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Dekha Tenu</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Koi Tumsa Nahi.jpg"
+          alt="Koi Tumsa Nahi"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Koi Tumsa Nahi</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Chaleya.jpg"
+          alt="Chaleya"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Chaleya</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Tum Hi Ho.jpg"
+          alt="Tum Hi Ho"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Tum Hi Ho</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Khairiyat.jpg"
+          alt="Khairiyat"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Khairiyat</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Sab Tera.jpg"
+          alt="Sab Tera"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Sab Tera</p>
+      </div>
+
+      
+
+    
+
+    <hr class="white-line" />
+
+    <!-- old movie container -->
+
+    <div class="old-movie-container">
+      <h2>Old Movie Songs</h2>
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Om Shanti Om.jpg"
+          alt="Om Shanti Om"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Aankhon Mein Teri</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Kal Ho Naa Ho.jpg"
+          alt="Kal Ho Naa Ho"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Kal Ho Naa Ho</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Hum Dil De Chuke Sanam.jpg"
+          alt="Hum Dil De Chuke Sanam"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Albela Sajan</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Dil To Pagal Hai.jpg"
+          alt="Dil To Pagal Hai"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Bholi si Surat</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Dil Se.jpg"
+          alt="Dil-Se"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Jiya Jale</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Kabhi Khushi Kabhie Gham.jpg"
+          alt="Kabhi Khushi Kabhie Gham"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Bole Chudiyan</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Fanaa.jpg"
+          alt="Fanaa"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Mere Hath Mein</p>
+      </div>
+
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Kabhi Kabhie.jpg"
+          alt="Kabhi Kabhie"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Kabhi Kabhie</p>
+      </div>
+    
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Tujhe Dekha To.jpg"
+          alt="Tujhe Dekha To"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Tujhe Dekha To</p>
+      </div>
+    
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Chalte Chalte.jpg"
+          alt="Chalte Chalte"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Chalte Chalte</p>
+      </div>
+    
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Baazigar O Baazigar.jpg"
+          alt="Baazigar O Baazigar"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Baazigar O Baazigar</p>
+      </div>
+    
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Bol Na Halke Halke.jpg"
+          alt="Bol Na Halke Halke"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Bol Na Halke Halke</p>
+      </div>
+    
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Dil Ne Yeh Kaha.jpg"
+          alt="Dil Ne Yeh Kaha"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Dil Ne Yeh Kaha</p>
+      </div>
+    
+      <div>
+        <img
+          class="song-inline"
+          src="/Media/Do Pal.jpg"
+          alt="Do-Pal"
+          width="155px"
+          height="155px"
+        />
+        <p class="song-name">Do-Pal</p>
+      </div>
+    
+    </div>
+    <hr class="white-line" />
+
+    <!-- Top artist container -->
+
+    <div class="top-artist-container">
+      <h2>Top Artist</h2>
+      <div>
+        <img
+          class="circle"
+          src="/Media/Arijit_Singh.jpg"
+          alt="Arijit Singh"
+          width="155px"
+          height="155px"
+        />
+        <p class="artist-name">Arijit Singh</p>
+      </div>
+
+      <div>
+        <img
+          class="circle"
+          src="/Media/Shreya_Ghoshal.jpg"
+          alt="Shreya Ghoshal"
+          width="155px"
+          height="155px"
+        />
+        <p class="artist-long-name">Shreya Ghoshal</p>
+      </div>
+
+      <div>
+        <img
+          class="circle"
+          src="/Media/Yo_Yo_Honey_Singh.jpg"
+          alt="Yo Yo"
+          width="155px"
+          height="155px"
+        />
+        <p class="artist-long-name">Yo Yo Honey Singh</p>
+      </div>
+
+      <div>
+        <img
+          class="circle"
+          src="/Media/Lata_Mangeshkar.jpg"
+          alt="Lata Mangeshkar"
+          width="155px"
+          height="155px"
+        />
+        <p class="artist-long-name">Lata Mangeshkar</p>
+      </div>
+
+      <div>
+        <img
+          class="circle"
+          src="/Media/Neha_Kakkar.jpg"
+          alt="Neha Kakkar"
+          width="155px"
+          height="155px"
+        />
+        <p class="artist-name">Neha Kakkar</p>
+      </div>
+
+      <div>
+        <img
+          class="circle"
+          src="/Media/Diljit_Dosanjh.jpg"
+          alt="Diljit Dosanjh"
+          width="155px"
+          height="155px"
+        />
+        <p class="artist-name">Diljit Dosanjh</p>
+      </div>
+
+      <div>
+        <img
+          class="circle"
+          src="/Media/Sonu_Nigam.jpg"
+          alt="Sonu Nigam"
+          width="155px"
+          height="155px"
+        />
+        <p class="artist-name">Sonu Nigam</p>
+      </div>
+    </div>
+    <hr class="white-line" />
+
+    <script src="script.js"></script>
+  </body>
+</html>

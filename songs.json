@@ -1,0 +1,171 @@
+[
+    {
+      "id": "1",
+      "songName": "Satranga",
+      "poster": "Media/satranga.jpg",
+      "audio": "Media/Satranga.mp3"
+    },
+    {
+      "id": "2",
+      "songName": "Laal Peeli Akhiyaan",
+      "poster": "Media/Teri Baaton Mein Aisa.jpg",
+      "audio": "Media/Laal Peeli Akhiyaan.mp3"
+    },
+    {
+      "id": "3",
+      "songName": "Raaatan Lambiyan",
+      "poster": "Media/Shershaah.jpg",
+      "audio": "Media/Raataan Lambiyan.mp3"
+    },
+    {
+      "id": "4",
+      "songName": "What Jhumka",
+      "poster": "Media/rocky aur rani.png",
+      "audio": "Media/What Jhumka.mp3"
+    },
+    {
+      "id": "5",
+      "songName": "Dilon ki Dooriyan",
+      "poster": "Media/Bawaal.jpg",
+      "audio": "Media/Dilon Ki Doriyan.mp3"
+    },
+    {
+      "id": "6",
+      "songName": "Chedkhaniyan",
+      "poster": "Media/Shehzada.jpg",
+      "audio": "Media/Chedkhaniyan.mp3"
+    },
+    {
+      "id": "7",
+      "songName": "Ghungroo",
+      "poster": "Media/War.jpg",
+      "audio": "Media/Ghungroo.mp3"
+    },
+    {
+      "id": "8",
+      "songName": "Jhoome Jo Pathaan",
+      "poster": "Media/Jhoome Jo Pathaan.jpg",
+      "audio": "Media/Jhoome Jo Pathaan.mp3"
+    },
+    {
+      "id": "9",
+      "songName": "Dekha Tenu",
+      "poster": "Media/Dekha Tenu.jpg",
+      "audio": "Media/Dekha Tenu.mp3"
+    },
+    {
+      "id": "10",
+      "songName": "Koi Tumsa Nahi",
+      "poster": "Media/Koi Tumsa Nahi.jpg",
+      "audio": "Media/Koi Tumsa Nahi.mp3"
+    },
+    {
+      "id": "11",
+      "songName": "Chaleya",
+      "poster": "Media/Chaleya.jpg",
+      "audio": "Media/Chaleya.mp3"
+    },
+    {
+      "id": "12",
+      "songName": "Tum Hi Ho",
+      "poster": "Media/Tum Hi Ho.jpg",
+      "audio": "Media/Tum Hi Ho.mp3"
+    },
+    {
+      "id": "13",
+      "songName": "Khairiyat",
+      "poster": "Media/Khairiyat.jpg",
+      "audio": "Media/Khairiyat.mp3"
+    },
+    {
+      "id": "14",
+      "songName": "Sab Tera",
+      "poster": "Media/Sab Tera.jpg",
+      "audio": "Media/Sab Tera.mp3"
+    },
+  
+    {
+      "id": "15",
+      "songName": "Aankhon Mein Teri",
+      "poster": "/Media/Om Shanti Om.jpg",
+      "audio": "Media/Aankhon mein.mp3"
+    },
+    {
+      "id": "16",
+      "songName": "Kal Ho Naa Ho",
+      "poster": "Media/Kal Ho Naa Ho.jpg",
+      "audio": "Media/Kal Ho Naa Ho.mp3"
+    },
+    {
+      "id": "17",
+      "songName": "Albela Sajan",
+      "poster": "Media/Hum Dil De Chuke Sanam.jpg",
+      "audio": "Media/Albela Sajan.mp3"
+    },
+    {
+      "id": "18",
+      "songName": "Bholi si Surat",
+      "poster": "Media/Dil To Pagal Hai.jpg",
+      "audio": "Media/Bholi si Surat.mp3"
+    },
+    {
+      "id": "19",
+      "songName": "Jiya Jale",
+      "poster": "Media/Dil Se.jpg",
+      "audio": "Media/Jiya Jale.mp3"
+    },
+    {
+      "id": "20",
+      "songName": "Bole Chudiyan",
+      "poster": "Media/Kabhi Khushi Kabhie Gham.jpg",
+      "audio": "Media/Bole Chudiyan.mp3"
+    },
+    {
+      "id": "21",
+      "songName": "Mere Hath Mein",
+      "poster": "Media/Fanaa.jpg",
+      "audio": "Media/Mere Haath Mein.mp3"
+    },
+    {
+      "id": "22",
+      "songName": "Kabhi Kabhie",
+      "poster": "Media/Kabhi Kabhie.jpg",
+      "audio": "Media/Kabhi Kabhie.mp3"
+    },
+    {
+      "id": "23",
+      "songName": "Tujhe Dekha To",
+      "poster": "Media/Tujhe Dekha To.jpg",
+      "audio": "Media/Tujhe Dekha To.mp3"
+    },
+    {
+      "id": "24",
+      "songName": "Chalte Chalte",
+      "poster": "Media/Chalte Chalte.jpg",
+      "audio": "Media/Chalte Chalte.mp3"
+    },
+    {
+      "id": "25",
+      "songName": "Baazigar O Baazigar",
+      "poster": "Media/Baazigar O Baazigar.jpg",
+      "audio": "Media/Baazigar O Baazigar.mp3"
+    },
+    {
+      "id": "26",
+      "songName": "Bol Na Halke Halke",
+      "poster": "Media/Bol Na Halke Halke.jpg",
+      "audio": "Media/Bol Na Halke Halke.mp3"
+    },
+    {
+      "id": "27",
+      "songName": "Dil Ne Yeh Kaha",
+      "poster": "Media/Dil Ne Yeh Kaha.jpg",
+      "audio": "Media/Dil Ne Yeh Kaha.mp3"
+    },
+    {
+      "id": "28",
+      "songName":"Do Pal",
+      "poster": "Media/Do Pal.jpg",
+      "audio": "Media/Do Pal.mp3"
+    }
+]
