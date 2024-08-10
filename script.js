@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       console.log("Fetched songs data:", data);
       songs = data;
-      preloadSongs(songs); // Preload songs
       if (songs.length > 0) {
         updateFooter(songs[0]);
       } else {
@@ -88,9 +87,16 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   // Control buttons functionality
+  // Play button functionality
   document.querySelector(".play").addEventListener("click", () => {
     if (songs.length > 0) {
-      playSong(currentSongIndex); // Play the current song
+      if (music.paused) {
+        music.play(); // Resume the current song from the paused position
+        document.querySelector(".play").style.display = "none";
+        document.querySelector(".pause").style.display = "inline-block";
+      } else {
+        playSong(currentSongIndex); // Play the current song from the beginning
+      }
     }
   });
 
