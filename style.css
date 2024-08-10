@@ -280,7 +280,6 @@ h2 {
   box-sizing: border-box;
   bottom: 0;
   border-color: #111111;
-  /* overflow-x: auto; */
 }
 
 button.play {
@@ -380,7 +379,7 @@ button.repeat {
   background-color: transparent;
   height: 20px;
   width: 20px;
-  padding-right: 250px;
+  padding-right: 100px;
 }
 .repeat img {
   background-color: transparent;
@@ -396,7 +395,7 @@ button.repeat {
   background-color: transparent;
   height: 20px;
   width: 20px;
-  padding-right: 70px;
+  padding-right: 50px;
 }
 .volume-container {
   display: flex;
@@ -494,6 +493,8 @@ button.repeat {
   font-size: 16 px;
   border-color: white;
   color: white;
+  margin-right: 100px;
+  margin-left: 100px;
   padding-left: 10px;
   padding-right: 10px;
   height: 20px;
@@ -502,8 +503,8 @@ button.repeat {
   display: flex;
   align-items: center;
   column-gap: 40px;
-  padding-right: 50px;
-  padding-left: 75px;
+  padding-right: 100px;
+  padding-left: 55px;
 }
 .music-playing-footer img {
   height: 50px;
@@ -521,8 +522,8 @@ button.repeat {
   padding-top: 0px;
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
-  padding-right: 200px;
-  width: 170px;
+  /* padding-right: 200px; */
+  width: 200px;
   display: inline-block;
 }
 .my-music {
