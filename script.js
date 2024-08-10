@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       console.log("Fetched songs data:", data);
       songs = data;
+      preloadSongs(songs); // Preload songs
       if (songs.length > 0) {
         updateFooter(songs[0]);
       } else {
