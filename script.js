@@ -148,5 +148,12 @@ document.addEventListener("DOMContentLoaded", () => {
   music.addEventListener("ended", () => {
     document.querySelector(".play").style.display = "inline-block";
     document.querySelector(".pause").style.display = "none";
+
+    // Play the next song automatically
+    if (currentSongIndex < songs.length - 1) {
+      playSong(currentSongIndex + 1);
+    } else {
+      playSong(0); // Loop back to the first song if it was the last one
+    }
   });
 });
